@@ -1,0 +1,21 @@
+[  {    "jobTitle": "Front-end Developer",  
+  "jobVacancy": 300,  
+    "jobIconLink": "https://cdn0.iconfinder.com/data/icons/front-end-development-3/100/front_end_developer_development_it_sphere_internet-512.png" ,
+      "id": 1  }, 
+
+ {    "jobTitle": "Marketing Manager",  
+   "jobVacancy": 150, 
+      "jobIconLink": "https://cdn-icons-png.flaticon.com/512/2973/2973399.png" ,
+      "id": 2 },
+
+   {    "jobTitle": "Project Manager", 
+      "jobVacancy": 200,   
+       "jobIconLink": "https://cdn-icons-png.flaticon.com/512/5956/5956597.png" ,
+       "id": 3  },
+
+     {    "jobTitle": "Customer Support Specialist",  
+       "jobVacancy": 250,   
+        "jobIconLink": "https://cdn2.iconfinder.com/data/icons/content-design-production-1-1/66/32-512.png" ,
+        "id": 4 }
+    ]
+
