@@ -22,7 +22,7 @@ const FeaturedList = ({jobinfo,showDetails}) => {
        <p className='pr-5 text-sm'> <FontAwesomeIcon className='pr-1' icon={faLocationDot} />{location}</p>
         <p className='pr-3 text-sm'><FontAwesomeIcon className='pr-1' icon={faCommentDollar} />Salary: {salaryRange}</p>
        </div>
-       <Link to={`/jobDetails`}> <button onClick={()=>showDetails(id)} className='border-2 bg-blue-700 text-white px-3 py-2 rounded-lg text-sm'>View Details</button></Link>
+       <Link to={`/jobDetails/${id}`}> <button onClick={()=>showDetails(jobinfo)} className='border-2 bg-blue-700 text-white px-3 py-2 rounded-lg text-sm'>View Details</button></Link>
              
         </div>
     );

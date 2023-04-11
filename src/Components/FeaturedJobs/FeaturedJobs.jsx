@@ -5,7 +5,7 @@ import JobDetails from '../JobDetails/JobDetails';
 const FeaturedJobs = () => {
 
     const [jobinfos,setJobinfos] = useState([]);
-    const [detailedjob,setDetailedjob] = useState([]);
+ 
 
     useEffect(() =>{
         fetch('JobDescription.json')
@@ -15,19 +15,17 @@ const FeaturedJobs = () => {
 
 
 
-    const showDetails = (id) =>{
-    let addDetails =[];
-         let detailsJob = jobinfos.find(job=> job.id === id);
-         addDetails =[...detailedjob,detailsJob];
+    
        
-        setDetailedjob(addDetails);
-         {
-            <JobDetails detailedjob={detailedjob}></JobDetails>
-         }
-         console.log(detailedjob);
+         
+        const showDetails = (job) => {
+            
+            console.log("Showing details for job: ", job);
+            <JobDetails job={job}></JobDetails>
 
-console.log(id);
+console.log(job);
     }
+
     return (
         <div className='p-3'>
               <p className='text-4xl font-semibold text-center p-4'>Featured Jobs</p>

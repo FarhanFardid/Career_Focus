@@ -67,10 +67,43 @@
         "contactInfo": "Jane Smith, HR Manager",
         "email": "janesmith@google.com",
         "phone": "(555) 234-5678"
-        }
+        },
         
+        {
+        "companyName": "Tesla Inc.",
+        "id": 5,
+        "jobTitle": "Electrical Engineer",
+        "companyLogo": "https://logos-world.net/wp-content/uploads/2020/10/Tesla-Emblem.png",
+        "jobType": "Full-time",
+        "job_place": "On-site",
+        "location": "Fremont, CA",
+        "salaryRange": "$80,000 - $100,000",
+        "jobDescription": "We are seeking an electrical engineer to design and develop electrical systems for our vehicles.",
+        "jobResponsibility": "Design and develop electrical systems, conduct testing and validation, and collaborate with other engineers and teams.",
+        "experience": "5+ years",
+        "educationalRequirements": "Bachelor's degree in Electrical Engineering or related field.",
+        "contactInfo": "Mark Johnson, Engineering Manager",
+        "email": "markjohnson@tesla.com",
+        "phone": "(555) 345-6789"
+        },
+        {
+            "companyName": "Apple Inc.",
+            "id": 6,
+            "jobTitle": "UX Designer",
+            "companyLogo": "https://www.researchgate.net/publication/353441913/figure/fig1/AS:1049265673613312@1627175839900/Brand-Logo-of-Apple-Inc.jpg",
+            "jobType": "Full-time",
+            "job_place": "On-site",
+            "location": "Cupertino, CA",
+            "salaryRange": "$120,000 - $150,000",
+            "jobDescription": "We are seeking a UX designer to design and enhance user interfaces for our software and hardware products.",
+            "jobResponsibility": "Collaborate with cross-functional teams to create wireframes, prototypes, and designs that meet user needs and business goals.",
+            "experience": "3+ years",
+            "educationalRequirements": "Bachelor's or Master's degree in Design, HCI, or related field.",
+            "contactInfo": "John Doe, UX Manager",
+            "email": "johndoe@apple.com",
+            "phone": "(555) 123-4567"
+            }
         
-    
         
       
 ]

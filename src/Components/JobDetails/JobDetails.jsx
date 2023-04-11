@@ -1,7 +1,9 @@
 import React from 'react';
 
-const JobDetails = ({detailedjob}) => {
-    console.log(detailedjob);
+const JobDetails = (props) => {
+    const job= props.job;
+    console.log(job);
+ 
 
     // const {jobTitle,location,salaryRange,jobDescription,jobResponsibility,experience,educationalRequirements,contactInfo,email,phone} = detailsJob;
     return (
