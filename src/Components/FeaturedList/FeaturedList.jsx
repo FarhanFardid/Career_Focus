@@ -3,8 +3,10 @@ import React from 'react';
 
   import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
   import { faCommentDollar, faLocationDot} from '@fortawesome/free-solid-svg-icons'
-const FeaturedList = ({jobinfo}) => {
-    const {companyName,jobTitle,jobType,job_place,location,salaryRange,companyLogo} =jobinfo;
+import { Link } from 'react-router-dom';
+const FeaturedList = ({jobinfo,showDetails}) => {
+    const {companyName,jobTitle,jobType,job_place,location,salaryRange,companyLogo,id} =jobinfo;
+  
 
     return (
         <div className='md:col-span-6 col-span-12 md:p-8 p-3 bg-slate-200'>
@@ -20,7 +22,7 @@ const FeaturedList = ({jobinfo}) => {
        <p className='pr-5 text-sm'> <FontAwesomeIcon className='pr-1' icon={faLocationDot} />{location}</p>
         <p className='pr-3 text-sm'><FontAwesomeIcon className='pr-1' icon={faCommentDollar} />Salary: {salaryRange}</p>
        </div>
-       <button className='border-2 bg-blue-700 text-white px-3 py-2 rounded-lg text-sm'>View Details</button>
+       <Link to={`/jobDetails`}> <button onClick={()=>showDetails(id)} className='border-2 bg-blue-700 text-white px-3 py-2 rounded-lg text-sm'>View Details</button></Link>
              
         </div>
     );

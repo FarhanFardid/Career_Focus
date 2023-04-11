@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import ReactDOM from 'react-dom/client'
 
 import './index.css'
@@ -27,7 +27,9 @@ const router = createBrowserRouter([
       {
         path:'jobDetails',
         element:<JobDetails></JobDetails>
-      },
+      
+        },
+      
       {
         path:'statistics',
         element:<Statistics></Statistics>

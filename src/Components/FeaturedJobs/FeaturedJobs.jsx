@@ -1,15 +1,33 @@
 import React, { useEffect, useState } from 'react';
 import FeaturedList from '../FeaturedList/FeaturedList';
+import JobDetails from '../JobDetails/JobDetails';
 
 const FeaturedJobs = () => {
 
     const [jobinfos,setJobinfos] = useState([]);
+    const [detailedjob,setDetailedjob] = useState([]);
 
     useEffect(() =>{
         fetch('JobDescription.json')
         .then (res => res.json())
         .then(data => setJobinfos(data))
     },[]);
+
+
+
+    const showDetails = (id) =>{
+    let addDetails =[];
+         let detailsJob = jobinfos.find(job=> job.id === id);
+         addDetails =[...detailedjob,detailsJob];
+       
+        setDetailedjob(addDetails);
+         {
+            <JobDetails detailedjob={detailedjob}></JobDetails>
+         }
+         console.log(detailedjob);
+
+console.log(id);
+    }
     return (
         <div className='p-3'>
               <p className='text-4xl font-semibold text-center p-4'>Featured Jobs</p>
@@ -19,6 +37,7 @@ const FeaturedJobs = () => {
                    jobinfos.map(jobinfo=> <FeaturedList 
                     jobinfo={jobinfo}
                     key={jobinfo.id}
+                    showDetails={showDetails}
                    ></FeaturedList>  )
                 }
   </div>
