@@ -49,8 +49,8 @@ const Statistics = () => {
       
        
     return (
-        <div className='text-center p-10 bg-slate-200'>
-        <h2 className='text-center p-3 font-semibold text-3xl'>Area Chart of All the Assignment Marks</h2>
+        <div className='text-center p-12 bg-slate-200'>
+        <h2 className='p-8 font-semibold text-3xl'>Area Chart of All the Assignment Marks</h2>
         <AreaChart
           width={1200}
           height={500}

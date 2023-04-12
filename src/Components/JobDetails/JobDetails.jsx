@@ -13,7 +13,7 @@ const JobDetails = () => {
         <div>
             <h2 className='text-5xl font-semibold bg-slate-300 p-28 text-center'>Job Details</h2>
 
-            <div className='grid grid-cols-12 gap-2 items-center bg-slate-200'>
+            <div className='grid grid-cols-12 gap-2 items-center bg-slate-200 p-2'>
                 <div className='col-span-8 p-20 text-lg'>
                     <p className='py-2'> <span className='font-bold text-lg'>Job Description:</span> {jobDescription}  </p>
                     <p className='py-2' > <span className='font-bold text-lg'>Job Responsibility:</span> {jobResponsibility}  </p>
