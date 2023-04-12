@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom';
 const AppliedDetails = ({job}) => {
     const {companyName,jobTitle,jobType,job_place,location,salaryRange,companyLogo,id}= job;
     return (
-        <div className='grid grid-cols-12 p-8 gap-2 items-center justify-center bg-slate-200'>
-            <div className='col-span-4'> <img className='w-4/12 h-24 p-1 border-2 border-white ' src={companyLogo} alt="logo" /></div>
+        <div className='grid grid-cols-12  gap-2 items-center justify-center bg-slate-100  rounded-lg mx-32 my-4 py-10 border-2 '>
+            <div className='col-span-4  ml-12 ps-36'> <img className='w-8/12 h-24  border-2 border-gray-500 rounded-md ' src={companyLogo} alt="logo" /></div>
  
-      <div className='col-span-5'>
+      <div className='col-span-5 mr-10'>
       <p className='text-xl font-bold'>{jobTitle}</p>
         <p className='text-sm py-2'>{companyName}</p>
         <div className='py-2'>
