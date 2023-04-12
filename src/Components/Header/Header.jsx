@@ -2,7 +2,7 @@ import React from 'react';
 import user from '../../assets/All Images/user.png';
 const Header = () => {
     return (
-        <div className='grid grid-cols-12 gap-1 bg-slate-200'>
+        <div className='grid grid-cols-12 gap-1 bg-slate-200 items-center'>
            <div className=' md:col-span-6 col-span-12 md:p-5 md:m-28 p-4 m-2'>
 
             <p className='md:text-5xl text-4xl font-semibold'>One Step Closer To Your <span className='text-purple-600'> Dream Job</span></p>
