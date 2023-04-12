@@ -1,0 +1,17 @@
+{
+    "companyName": "Microsoft Corporation",
+    "id": 3,
+    "jobTitle": "Software Engineer",
+    "companyLogo": "https://icgtechnology.com/wp-content/uploads/2021/03/microsoft-corporate-logo-guidelines-trademarks-microsoft-logo-png-2008_900.png",
+    "jobType": "Full-time",
+    "job_place": "On-site",
+    "location": "Redmond, WA",
+    "salaryRange": "$100,000 - $130,000",
+    "jobDescription": "We are seeking a software engineer to develop and maintain software applications for our customers.",
+    "jobResponsibility": "Design, develop, test, and debug software applications using various programming languages and tools.",
+    "experience": "3+ years",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "contactInfo": "John Doe, Hiring Manager",
+    "email": "johndoe@microsoft.com",
+    "phone": "(555) 123-4567"
+    }

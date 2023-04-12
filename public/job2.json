@@ -1,0 +1,17 @@
+{
+    "companyName": "Amazon Inc.",
+    "id": 2,
+    "jobTitle": "Marketing Manager",
+    "companyLogo": "https://1000logos.net/wp-content/uploads/2016/10/Amazon-Logo.png",
+    "jobType": "Part-time",
+    "job_place": "Remote",
+    "location": "Los Angeles, CA",
+    "salaryRange": "$50,000 - $60,000",
+    "jobDescription": "We are looking for a marketing manager to oversee our company's marketing campaigns and initiatives.",
+    "jobResponsibility": "Develop and execute marketing strategies to promote our products and services.",
+    "experience": "5+ years",
+    "educationalRequirements": "Bachelor's degree in Marketing or related field.",
+    "contactInfo": "Jane Smith, HR Manager",
+    "email": "janesmith@xyzcorp.com",
+    "phone": "(555) 234-5678"
+}

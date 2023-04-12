@@ -1,0 +1,17 @@
+{
+    "companyName": "Tesla Inc.",
+    "id": 5,
+    "jobTitle": "Electrical Engineer",
+    "companyLogo": "https://logos-world.net/wp-content/uploads/2020/10/Tesla-Emblem.png",
+    "jobType": "Full-time",
+    "job_place": "On-site",
+    "location": "Fremont, CA",
+    "salaryRange": "$80,000 - $100,000",
+    "jobDescription": "We are seeking an electrical engineer to design and develop electrical systems for our vehicles.",
+    "jobResponsibility": "Design and develop electrical systems, conduct testing and validation, and collaborate with other engineers and teams.",
+    "experience": "5+ years",
+    "educationalRequirements": "Bachelor's degree in Electrical Engineering or related field.",
+    "contactInfo": "Mark Johnson, Engineering Manager",
+    "email": "markjohnson@tesla.com",
+    "phone": "(555) 345-6789"
+    }

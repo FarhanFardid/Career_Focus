@@ -1,0 +1,17 @@
+{
+    "companyName": "Google LLC",
+    "id": 4,
+    "jobTitle": "Data Analyst",
+    "companyLogo": "https://thumbs.dreamstime.com/b/new-vector-google-icon-service-developed-redesigned-version-eps-file-available-g-logo-llc-apps-official-logotypes-201198487.jpg",
+    "jobType": "Full-time",
+    "job_place": "On-site",
+    "location": "Mountain View, CA",
+    "salaryRange": "$90,000 - $110,000",
+    "jobDescription": "We are seeking a data analyst to analyze large datasets and provide insights to our stakeholders.",
+    "jobResponsibility": "Collect and analyze large datasets, create reports and visualizations, and present findings to stakeholders.",
+    "experience": "2+ years",
+    "educationalRequirements": "Bachelor's degree in Statistics, Computer Science, or related field.",
+    "contactInfo": "Jane Smith, HR Manager",
+    "email": "janesmith@google.com",
+    "phone": "(555) 234-5678"
+    }

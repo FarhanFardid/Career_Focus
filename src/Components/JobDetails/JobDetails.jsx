@@ -1,11 +1,14 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
 
-const JobDetails = (props) => {
-    const job= props.job;
-    console.log(job);
+const JobDetails = () => {
+    const data = useLoaderData();
+    console.log(data);
+ 
+  
  
 
-    // const {jobTitle,location,salaryRange,jobDescription,jobResponsibility,experience,educationalRequirements,contactInfo,email,phone} = detailsJob;
+  
     return (
         <div>
             <h2>Job details page</h2>

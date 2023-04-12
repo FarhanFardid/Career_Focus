@@ -13,17 +13,10 @@ const FeaturedJobs = () => {
         .then(data => setJobinfos(data))
     },[]);
 
-
-
-    
-       
          
         const showDetails = (job) => {
-            
             console.log("Showing details for job: ", job);
-            <JobDetails job={job}></JobDetails>
 
-console.log(job);
     }
 
     return (

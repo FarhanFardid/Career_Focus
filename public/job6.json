@@ -1,0 +1,17 @@
+{
+    "companyName": "Apple Inc.",
+    "id": 6,
+    "jobTitle": "UX Designer",
+    "companyLogo": "https://www.researchgate.net/publication/353441913/figure/fig1/AS:1049265673613312@1627175839900/Brand-Logo-of-Apple-Inc.jpg",
+    "jobType": "Full-time",
+    "job_place": "On-site",
+    "location": "Cupertino, CA",
+    "salaryRange": "$120,000 - $150,000",
+    "jobDescription": "We are seeking a UX designer to design and enhance user interfaces for our software and hardware products.",
+    "jobResponsibility": "Collaborate with cross-functional teams to create wireframes, prototypes, and designs that meet user needs and business goals.",
+    "experience": "3+ years",
+    "educationalRequirements": "Bachelor's or Master's degree in Design, HCI, or related field.",
+    "contactInfo": "John Doe, UX Manager",
+    "email": "johndoe@apple.com",
+    "phone": "(555) 123-4567"
+    }

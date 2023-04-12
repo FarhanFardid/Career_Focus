@@ -1,0 +1,17 @@
+{
+    "companyName": "Google Inc.",
+    "id": 1,
+    "jobTitle": "Software Engineer",
+    "companyLogo": "https://images.unsplash.com/photo-1573804633927-bfcbcd909acd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29vZ2xlJTIwbG9nb3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "jobType": "Full-time",
+    "job_place": "Remote",
+    "location": "New York, NY",
+    "salaryRange": "$80,000 - $100,000",
+    "jobDescription": "We are seeking a software engineer to join our team and help develop new software applications.",
+    "jobResponsibility": "Develop and maintain software applications using Java and React.",
+    "experience": "2+ years",
+    "educationalRequirements": "Bachelor's degree in Computer Science or related field.",
+    "contactInfo": "John Doe, HR Manager",
+    "email": "johndoe@abcinc.com",
+    "phone": "(555) 123-4567"
+  }
