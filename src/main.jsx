@@ -12,6 +12,9 @@ import Blog from './Components/Blog/Blog'
 import Error404 from './Components/Error404/Error404'
 
 
+
+
+
 const router = createBrowserRouter([
   {
     path:'/',
@@ -23,7 +26,8 @@ const router = createBrowserRouter([
       },
       {
         path:'appliedJobs',
-        element:<AppliedJob></AppliedJob>
+        element:<AppliedJob></AppliedJob>,
+     
       },
       {
         path:'jobDetails/1',

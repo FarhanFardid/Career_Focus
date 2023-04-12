@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FeaturedList from '../FeaturedList/FeaturedList';
-import JobDetails from '../JobDetails/JobDetails';
+
 
 const FeaturedJobs = () => {
 
@@ -8,7 +8,7 @@ const FeaturedJobs = () => {
  
 
     useEffect(() =>{
-        fetch('JobDescription.json')
+        fetch('jobDescription.json')
         .then (res => res.json())
         .then(data => setJobinfos(data))
     },[]);

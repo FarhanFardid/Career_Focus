@@ -2,12 +2,18 @@ import React from 'react';
 import { useLoaderData } from 'react-router-dom';  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCommentDollar, faLocationDot, faCalendar,faMessage,faPhone} from '@fortawesome/free-solid-svg-icons'
+import { addToDb } from '../../utilities/fakedb';
 
 const JobDetails = () => {
     const data = useLoaderData();
     console.log(data);
 
     const {id,jobDescription,jobResponsibility,experience,educationalRequirements,salaryRange,jobTitle,location,email,phone} = data;
+
+    const addApplied =(job)=>{
+        console.log(job);
+        addToDb(job.id);
+    }
  
     return (
         <div>
@@ -37,7 +43,7 @@ const JobDetails = () => {
                          <p className='py-1'><FontAwesomeIcon className='pr-1 text-sm text-blue-700' icon={faLocationDot} /> <span className='font-semibold'>  Location: </span> {location}</p>
                     </div>
                    </div>
-                   <button className='border-2 bg-blue-800 text-white rounded-lg w-full py-3 font-bold mt-3 hover:bg-blue-600'> Apply Now</button>
+                   <button  onClick={() => addApplied(data)} className='border-2 bg-blue-800 text-white rounded-lg w-full py-3 font-bold mt-3 hover:bg-blue-600'> Apply Now</button>
 
                 </div>
             </div>
