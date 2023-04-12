@@ -21,7 +21,7 @@ const AppliedJob = () => {
         let savedJobs = [];
         for(const id in storedJobs){
             const addedJobs = jobInfos.find(job => job.id == id);
-            console.log(addedJobs);
+            // console.log(addedJobs);
                if(addedJobs){
                 savedJobs.push(addedJobs);
                }
@@ -31,8 +31,7 @@ const AppliedJob = () => {
     },[jobInfos]);
 
     
-    console.log(jobInfos);
- console.log(appliedJobs);
+  
  let length = appliedJobs.length;
     return (
         <div>

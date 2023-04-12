@@ -11,7 +11,7 @@ const JobDetails = () => {
     const {id,jobDescription,jobResponsibility,experience,educationalRequirements,salaryRange,jobTitle,location,email,phone} = data;
 
     const addApplied =(job)=>{
-        console.log(job);
+      
         addToDb(job.id);
     }
  

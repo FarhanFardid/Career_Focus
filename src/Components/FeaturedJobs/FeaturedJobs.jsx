@@ -14,10 +14,7 @@ const FeaturedJobs = () => {
     },[]);
 
          
-        const showDetails = (job) => {
-            console.log("Showing details for job: ", job);
-
-    }
+     
 
     return (
         <div className='p-3'>
@@ -28,7 +25,7 @@ const FeaturedJobs = () => {
                    jobinfos.map(jobinfo=> <FeaturedList 
                     jobinfo={jobinfo}
                     key={jobinfo.id}
-                    showDetails={showDetails}
+                    
                    ></FeaturedList>  )
                 }
   </div>
