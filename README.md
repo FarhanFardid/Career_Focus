@@ -1,1 +1,1 @@
-React Router Realted Web Application.
+React Router Related Web Application.
